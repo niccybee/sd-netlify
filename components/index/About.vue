@@ -43,6 +43,6 @@ export default {
 
 <style>
 .pattern-band {
-  background: url("~/assets/images/pattern.png");
+  background: url("~/static/images/pattern.png");
 }
 </style>

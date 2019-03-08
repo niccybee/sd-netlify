@@ -9,7 +9,7 @@
       <div class="w-80-ns w-80 pa4-l pa4-m pa2 h-90 bg-white br2 shadow-1 rellax3 black">
         <h3 class="f2">Our Dukkah</h3>
         <p class="f4 pl3 pr3 lh-copy">
-          We love grazing food…And our sprinkle n Dash dukkah is the sort of food that you put on the table at the beginning of the evening and people just help themselves to.
+          We love grazing food…And our Sprinkle n Dash dukkah is the sort of food that you put on the table at the beginning of the evening and people just help themselves to.
           <br>
           <br>We also enjoy nibbles, dips and platters. Adding our Dukkah will simply look amazing, tasty and easy to enjoy with your friends and drinks of course!
           <br>
