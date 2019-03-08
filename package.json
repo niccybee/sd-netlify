@@ -1,0 +1,29 @@
+{
+  "name": "01",
+  "version": "1.0.0",
+  "description": "My posh Nuxt.js project",
+  "author": "NBWeb",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "nuxt": "^1.0.0",
+    "particles.js": "^2.0.0",
+    "rellax": "^1.7.1",
+    "tachyons": "^4.11.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "cross-env": "^5.0.1",
+    "eslint": "^4.15.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
