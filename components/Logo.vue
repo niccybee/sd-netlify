@@ -1,5 +1,5 @@
 <template>
-  <div class="logo ba b--yellow">
+  <div class="logo h-10">
     <img id="logo" src="~/assets/images/logo-svg.svg" alt>
   </div>
 </template>
@@ -15,13 +15,5 @@ export default {
 };
 </script>
 
-
 <style scoped>
-.logo {
-  height: 90%;
-  margin: 2rem;
-}
-#logo {
-  height: 40%;
-}
 </style>

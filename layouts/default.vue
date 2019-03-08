@@ -1,7 +1,9 @@
 <template>
-  <div class="base flex items-center justify-center flex-column tc">
+  <div class="wrap">
     <nav-bar :class="displayNav ? navShow.showNav : navShow.hideNav"></nav-bar>
-    <nuxt/>
+    <div class="base flex items-center justify-center flex-column tc">
+      <nuxt/>
+    </div>
   </div>
 </template>
 
@@ -18,16 +20,24 @@ export default {
       displayNav: false,
       navShow: {
         showNav: "black",
-        hideNav: "bg-blue ba b--yellow orange"
+        hideNav: "hidden",
+        hideNav2: "bg-blue ba b--yellow orange"
       }
     };
   }
 };
 </script>
 <style>
-p {
+p,
+a {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: "Arvo", "Karnak", "Calvert", "American Typewriter", Georgia,
+    "Times New Roman", Times, serif;
 }
 .base {
   background: black;
@@ -40,5 +50,11 @@ p {
       rgba(255, 255, 255, 0) 85.94%
     ),
     #48babe;
+}
+/* Fix */
+.hidden {
+  display: none;
+  visibility: hidden;
+  color: blue;
 }
 </style>

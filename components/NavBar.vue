@@ -1,5 +1,5 @@
 <template>
-  <header class="w-100 h3 flex flex-row justify-between items-center">
+  <header class="fixed z-5 w-100 h3 flex flex-row justify-between items-center">
     <div class="pl4">
       <logo></logo>
     </div>
@@ -18,9 +18,12 @@ export default {
   name: "NavBar",
   components: {
     Logo
+  },
+  data() {
+    showBar: false;
   }
 };
 </script>
 
-<style>
+<style scoped>
 </style>
